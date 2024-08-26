@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: python-webapp-k8s
-          image: adijaiswal/python-webapp:latest
+          image: charansait372/python-webapp:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
